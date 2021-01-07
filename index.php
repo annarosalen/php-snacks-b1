@@ -21,22 +21,27 @@
                 echo '<ul>';
 
                     echo '<li>';
+                    echo 'NOME:';
                     echo $item['name'];
                     echo '</li>';
 
                     echo '<li>';
+                    echo 'DESCRIZIONE:';
                     echo $item['description'];
                     echo '</li>';
 
                     echo '<li>';
+                    echo 'PARCHEGGIO:';
                     echo $item['parking'];
                     echo '</li>';
 
                     echo '<li>';
+                    echo 'VOTO:';
                     echo $item['vote'];
                     echo '</li>';
 
                     echo '<li>';
+                    echo 'DISTANZA:';
                     echo $item['distance_to_center'];
                     echo '</li>';
            
